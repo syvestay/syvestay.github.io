@@ -90,5 +90,29 @@ const musicas = [
     {
         nome: "Paradise, Paradise (Remix)",
         link: "https://www.youtube.com/embed/vfulNkapsV4?si=DjY68lcyE7PhtCZW&autoplay=1&rel=0"
+    },
+    {
+        nome: "Funky Buster (Rude Buster Remix)",
+        link: "https://www.youtube.com/embed/fbhiYYgTiBA?si=a9sL3j_DcREMOEZF&autoplay=1&rel=0"
+    },
+    {
+        nome: "JV-1080 cover (Rude Buster Remix)",
+        link: "https://www.youtube.com/embed/rDLgsen640k?si=Pa5a4qs23YPoZ6Yn&autoplay=1&rel=0"
+    },
+    {
+        nome: "Pokemon B2W2 (Rude Buster Remix)",
+        link: "https://www.youtube.com/embed/x-nZqpyBdZg?si=9iBiG9irPYdHiE8o&autoplay=1&rel=0"
+    },
+    {
+        nome: "Rude Buster [8-Bit; VRC6] (Remix)",
+        link: "https://www.youtube.com/embed/fVIRnEoXPHk?si=ugYDs_vRjF2WiWNu&autoplay=1&rel=0"
+    },
+    {
+        nome: "Cutie Mew Mew Magic (8-bit VRC6 Remix)",
+        link: "https://www.youtube.com/embed/nTYw8gZ-qu4?si=yKc5h7eeL6Wql5QV&autoplay=1&rel=0"
+    },
+    {
+        nome: "Cutie Mew Mew Magic",
+        link: "https://www.youtube.com/embed/tlFnfEWZCtQ?si=giqbXpslMEUIRupv&autoplay=1&rel=0"
     }
 ];

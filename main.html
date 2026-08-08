@@ -63,15 +63,38 @@
           </div>
         </div>
     </a>
-</body>
-    <a href="https://quack-media.itch.io" target="_blank" rel="noopener noreferrer">
-        <div class="quack-media">
-            <img src="quack-media.jpeg" class="quackmedia">
-          <div class="textos">
-            <h1>Quack Media</h1>
-            <h2>leva a página do itch.io (quack-media.itch.io)</h2>
-          </div>
-        </div>
-    </a>
+<audio id="musica-site" loop preload="auto">
+    <source src="Lofi hip hop beat.mp3" type="audio/mpeg">
+</audio>
+
+<script>
+    const musica = document.getElementById("musica-site");
+
+    // Tenta tocar assim que a página carregar
+    function tentarTocar() {
+        musica.play().catch(() => {
+            // O navegador bloqueou o autoplay.
+            // Então esperamos uma interação do usuário.
+        });
+    }
+
+    tentarTocar();
+
+    // Qualquer interação pode liberar o áudio
+    function iniciarComInteracao() {
+        musica.play().then(() => {
+            // Depois que conseguiu tocar, não precisamos mais dos eventos.
+            document.removeEventListener("click", iniciarComInteracao);
+            document.removeEventListener("keydown", iniciarComInteracao);
+            document.removeEventListener("pointerdown", iniciarComInteracao);
+            document.removeEventListener("touchstart", iniciarComInteracao);
+        }).catch(() => {});
+    }
+
+    document.addEventListener("click", iniciarComInteracao);
+    document.addEventListener("keydown", iniciarComInteracao);
+    document.addEventListener("pointerdown", iniciarComInteracao);
+    document.addEventListener("touchstart", iniciarComInteracao);
+</script>
 </body>
 </html>

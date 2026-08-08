@@ -125,10 +125,10 @@ const musicas = [
     },
     {
         nome: "Larping the Rooms (Looping the Rooms Remix)",
-        link: "https://www.youtube.com/embed/S6_pO9xj4iM?si=TKKcox2Xpy4N9ReE"
+        link: "https://www.youtube.com/embed/S6_pO9xj4iM?si=TKKcox2Xpy4N9ReE&autoplay=1&rel=0"
     },
     {
         nome: "Flower Castle",
-        link: "https://www.youtube.com/embed/ICFPzrihGX8?si=RTqYz6sYAKW_G8aH"
+        link: "https://www.youtube.com/embed/ICFPzrihGX8?si=RTqYz6sYAKW_G8aH&autoplay=1&rel=0"
     }
 ];

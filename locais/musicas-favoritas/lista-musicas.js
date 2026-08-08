@@ -114,5 +114,21 @@ const musicas = [
     {
         nome: "Cutie Mew Mew Magic",
         link: "https://www.youtube.com/embed/tlFnfEWZCtQ?si=giqbXpslMEUIRupv&autoplay=1&rel=0"
+    },
+    {
+        nome: "Machine Love",
+        link: "https://www.youtube.com/embed/sqK-jh4TDXo?si=bpN0QbE15ApMXsm-&autoplay=1&rel=0"
+    },
+    {
+        nome: "Machine Love",
+        link: "https://www.youtube.com/embed/sqK-jh4TDXo?si=bpN0QbE15ApMXsm-&autoplay=1&rel=0"
+    },
+    {
+        nome: "Larping the Rooms (Looping the Rooms Remix)",
+        link: "https://www.youtube.com/embed/S6_pO9xj4iM?si=TKKcox2Xpy4N9ReE"
+    },
+    {
+        nome: "Flower Castle",
+        link: "https://www.youtube.com/embed/ICFPzrihGX8?si=RTqYz6sYAKW_G8aH"
     }
 ];

@@ -1,134 +1,163 @@
 const musicas = [
     {
         nome: "Black Knife",
-        link: "https://www.youtube.com/embed/B8Us0DZgexw?autoplay=1&rel=0"
+        link: "https://www.youtube.com/embed/B8Us0DZgexw?autoplay=1&rel=0",
+        pasta: "Deltarune"
     },
     {
         nome: "BIRDBRAIN",
-        link: "https://www.youtube.com/embed/0iVlSNpq8i8?si=aelwRpaCvRlznWam&autoplay=1&rel=0"
+        link: "https://www.youtube.com/embed/0iVlSNpq8i8?si=aelwRpaCvRlznWam&autoplay=1&rel=0",
+        pasta: "Kasane Teto"
     },
     {
         nome: "Brain Rot feat.",
-        link: "https://www.youtube.com/embed/UsjsYMo3O1Q?si=KC9TVSe5Jr-xcR9c&autoplay=1&rel=0"
+        link: "https://www.youtube.com/embed/UsjsYMo3O1Q?si=KC9TVSe5Jr-xcR9c&autoplay=1&rel=0",
+        pasta: "Kasane Teto"
     },
     {
         nome: "Megalovania",
-        link: "https://www.youtube.com/embed/0FCvzsVlXpQ?si=Lq1yVEMrM1TWHyJL&autoplay=1&rel=0"
+        link: "https://www.youtube.com/embed/0FCvzsVlXpQ?si=Lq1yVEMrM1TWHyJL&autoplay=1&rel=0",
+        pasta: "Deltarune"
     },
     {
         nome: "Virtual Insanity",
-        link: "https://www.youtube.com/embed/4JkIs37a2JE?si=MS4r1b50wlV8RBPy&autoplay=1&rel=0"
+        link: "https://www.youtube.com/embed/4JkIs37a2JE?si=MS4r1b50wlV8RBPy&autoplay=1&rel=0",
+        pasta: "Outros"
     },
     {
         nome: "Life Goes on",
-        link: "https://www.youtube.com/embed/8F2s8ivKXNY?si=6AvMel2PO6whdRop&autoplay=1&rel=0"
+        link: "https://www.youtube.com/embed/8F2s8ivKXNY?si=6AvMel2PO6whdRop&autoplay=1&rel=0",
+        pasta: "Outros"
     },
     {
         nome: "Buttercup",
-        link: "https://www.youtube.com/embed/e2qG5uwDCW4?si=N835pIIia3XeHrT5&autoplay=1&rel=0"
+        link: "https://www.youtube.com/embed/e2qG5uwDCW4?si=N835pIIia3XeHrT5&autoplay=1&rel=0",
+        pasta: "Outros"
     },
     {
         nome: "Two Times",
-        link: "https://www.youtube.com/embed/HZik4fKw3G0?si=fIYu5SWNf0i0MDOL&autoplay=1&rel=0"
+        link: "https://www.youtube.com/embed/HZik4fKw3G0?si=fIYu5SWNf0i0MDOL&autoplay=1&rel=0",
+        pasta: "Outros"
     },
     {
         nome: "Buddy Holly",
-        link: "https://www.youtube.com/embed/SiJie3Z7DG8?si=Dilc9BE_R9f2Gtxk&autoplay=1&rel=0"
+        link: "https://www.youtube.com/embed/SiJie3Z7DG8?si=Dilc9BE_R9f2Gtxk&autoplay=1&rel=0",
+        pasta: "Outros"
     },
     {
         nome: "My Ordinary Life",
-        link: "https://www.youtube.com/embed/WuzIw73pmSc?si=DR3sSv-Qc1hwR4mq&autoplay=1&rel=0"
+        link: "https://www.youtube.com/embed/WuzIw73pmSc?si=DR3sSv-Qc1hwR4mq&autoplay=1&rel=0",
+        pasta: "Outros"
     },
     {
         nome: "おつかれSUMMER",
-        link: "https://www.youtube.com/embed/ViFHruS6oO8?si=2vKqGvYhf9NE89D-&autoplay=1&rel=0"
+        link: "https://www.youtube.com/embed/ViFHruS6oO8?si=2vKqGvYhf9NE89D-&autoplay=1&rel=0",
+        pasta: "Outros"
     },
     {
         nome: "Charlie's Inferno",
-        link: "https://www.youtube.com/embed/UbR_cocya4Q?si=YAlDW-kx40rLMB-F&autoplay=1&rel=0"
+        link: "https://www.youtube.com/embed/UbR_cocya4Q?si=YAlDW-kx40rLMB-F&autoplay=1&rel=0",
+        pasta: "Outros"
     },
     {
         nome: "Fell Good INC.",
-        link: "https://www.youtube.com/embed/HyHNuVaZJ-k?si=00KGE4_P0CTWFU5L&autoplay=1&rel=0"
+        link: "https://www.youtube.com/embed/HyHNuVaZJ-k?si=00KGE4_P0CTWFU5L&autoplay=1&rel=0",
+        pasta: "Outros"
     },
     {
         nome: "Let us Adore You",
-        link: "https://www.youtube.com/embed/e684-x2QR-o?si=oHHBjiMiCJgjvmm9&autoplay=1&rel=0"
+        link: "https://www.youtube.com/embed/e684-x2QR-o?si=oHHBjiMiCJgjvmm9&autoplay=1&rel=0",
+        pasta: "Remix"
     },
     {
         nome: "Paradise, Paradise",
-        link: "https://www.youtube.com/embed/ulaTvZ1gSL0?si=FGimYnP2BGyyLk30&autoplay=1&rel=0"
+        link: "https://www.youtube.com/embed/ulaTvZ1gSL0?si=FGimYnP2BGyyLk30&autoplay=1&rel=0",
+        pasta: "Remix"
     },
     {
         nome: "BIG SHOT",
-        link: "https://www.youtube.com/embed/V31PVkwzpEY?si=g2SUAfHNzRDeiZHZ&autoplay=1&rel=0"
+        link: "https://www.youtube.com/embed/V31PVkwzpEY?si=g2SUAfHNzRDeiZHZ&autoplay=1&rel=0",
+        pasta: "Deltarune"
     },
     {
         nome: "Rude Buster",
-        link: "https://www.youtube.com/embed/GPL5Hkl11IQ?si=PKR8J_Wu7Z9eSIXA&autoplay=1&rel=0"
+        link: "https://www.youtube.com/embed/GPL5Hkl11IQ?si=PKR8J_Wu7Z9eSIXA&autoplay=1&rel=0",
+        pasta: "Deltarune"
     },
     {
         nome: "Ruder Buster",
-        link: "https://www.youtube.com/embed/_A8SQAQ_yRo?si=fDuM6KN0x4TpAcDm&autoplay=1&rel=0"
+        link: "https://www.youtube.com/embed/_A8SQAQ_yRo?si=fDuM6KN0x4TpAcDm&autoplay=1&rel=0",
+        pasta: "Deltarune"
     },
     {
         nome: "Vapor Buster",
-        link: "https://www.youtube.com/embed/3vh8LYSuOvA?si=fsS2Rv12TbpCX45C&autoplay=1&rel=0"
+        link: "https://www.youtube.com/embed/3vh8LYSuOvA?si=fsS2Rv12TbpCX45C&autoplay=1&rel=0",
+        pasta: "Deltarune"
     },
     {
         nome: "Rakuichi Buster",
-        link: "https://www.youtube.com/embed/feId4ZUEF84?si=CsB1679LpC9GvhNJ&autoplay=1&rel=0"
+        link: "https://www.youtube.com/embed/feId4ZUEF84?si=CsB1679LpC9GvhNJ&autoplay=1&rel=0",
+        pasta: "Deltarune"
     },
     {
         nome: "Petal Dance",
-        link: "https://www.youtube.com/embed/RsAu3BDaAp8?si=_5v8TZYdlnRB5Jli&autoplay=1&rel=0"
+        link: "https://www.youtube.com/embed/RsAu3BDaAp8?si=_5v8TZYdlnRB5Jli&autoplay=1&rel=0",
+        pasta: "Deltarune"
     },
     {
         nome: "Enemy Approaching + Rude Buster (Remix)",
-        link: "https://www.youtube.com/embed/Gl5whtWl41Q?si=IUPvdZsbVouMOL6o&autoplay=1&rel=0"
+        link: "https://www.youtube.com/embed/Gl5whtWl41Q?si=IUPvdZsbVouMOL6o&autoplay=1&rel=0",
+        pasta: "Remix"
     },
     {
         nome: "Paradise, Paradise (Remix)",
-        link: "https://www.youtube.com/embed/vfulNkapsV4?si=DjY68lcyE7PhtCZW&autoplay=1&rel=0"
+        link: "https://www.youtube.com/embed/vfulNkapsV4?si=DjY68lcyE7PhtCZW&autoplay=1&rel=0",
+        pasta: "Remix"
     },
     {
         nome: "Funky Buster (Rude Buster Remix)",
-        link: "https://www.youtube.com/embed/fbhiYYgTiBA?si=a9sL3j_DcREMOEZF&autoplay=1&rel=0"
+        link: "https://www.youtube.com/embed/fbhiYYgTiBA?si=a9sL3j_DcREMOEZF&autoplay=1&rel=0",
+        pasta: "Remix"
     },
     {
         nome: "JV-1080 cover (Rude Buster Remix)",
-        link: "https://www.youtube.com/embed/rDLgsen640k?si=Pa5a4qs23YPoZ6Yn&autoplay=1&rel=0"
+        link: "https://www.youtube.com/embed/rDLgsen640k?si=Pa5a4qs23YPoZ6Yn&autoplay=1&rel=0",
+        pasta: "Remix"
     },
     {
         nome: "Pokemon B2W2 (Rude Buster Remix)",
-        link: "https://www.youtube.com/embed/x-nZqpyBdZg?si=9iBiG9irPYdHiE8o&autoplay=1&rel=0"
+        link: "https://www.youtube.com/embed/x-nZqpyBdZg?si=9iBiG9irPYdHiE8o&autoplay=1&rel=0",
+        pasta: "Remix"
+
     },
     {
         nome: "Rude Buster [8-Bit; VRC6] (Remix)",
-        link: "https://www.youtube.com/embed/fVIRnEoXPHk?si=ugYDs_vRjF2WiWNu&autoplay=1&rel=0"
+        link: "https://www.youtube.com/embed/fVIRnEoXPHk?si=ugYDs_vRjF2WiWNu&autoplay=1&rel=0",
+        pasta: "Remix"
     },
     {
         nome: "Cutie Mew Mew Magic (8-bit VRC6 Remix)",
-        link: "https://www.youtube.com/embed/nTYw8gZ-qu4?si=yKc5h7eeL6Wql5QV&autoplay=1&rel=0"
+        link: "https://www.youtube.com/embed/nTYw8gZ-qu4?si=yKc5h7eeL6Wql5QV&autoplay=1&rel=0",
+        pasta: "Remix"
     },
     {
         nome: "Cutie Mew Mew Magic",
-        link: "https://www.youtube.com/embed/tlFnfEWZCtQ?si=giqbXpslMEUIRupv&autoplay=1&rel=0"
+        link: "https://www.youtube.com/embed/tlFnfEWZCtQ?si=giqbXpslMEUIRupv&autoplay=1&rel=0",
+        pasta: "Deltarune"
     },
     {
         nome: "Machine Love",
-        link: "https://www.youtube.com/embed/sqK-jh4TDXo?si=bpN0QbE15ApMXsm-&autoplay=1&rel=0"
-    },
-    {
-        nome: "Machine Love",
-        link: "https://www.youtube.com/embed/sqK-jh4TDXo?si=bpN0QbE15ApMXsm-&autoplay=1&rel=0"
+        link: "https://www.youtube.com/embed/sqK-jh4TDXo?si=bpN0QbE15ApMXsm-&autoplay=1&rel=0",
+        pasta: "Kasane Teto"
     },
     {
         nome: "Larping the Rooms (Looping the Rooms Remix)",
-        link: "https://www.youtube.com/embed/S6_pO9xj4iM?si=TKKcox2Xpy4N9ReE&autoplay=1&rel=0"
+        link: "https://www.youtube.com/embed/S6_pO9xj4iM?si=TKKcox2Xpy4N9ReE&autoplay=1&rel=0",
+        pasta: "Remix"
     },
     {
         nome: "Flower Castle",
-        link: "https://www.youtube.com/embed/ICFPzrihGX8?si=RTqYz6sYAKW_G8aH&autoplay=1&rel=0"
+        link: "https://www.youtube.com/embed/ICFPzrihGX8?si=RTqYz6sYAKW_G8aH&autoplay=1&rel=0",
+        pasta: "Deltarune"
     }
 ];

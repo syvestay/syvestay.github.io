@@ -159,5 +159,66 @@ const musicas = [
         nome: "Flower Castle",
         link: "https://www.youtube.com/embed/ICFPzrihGX8?si=RTqYz6sYAKW_G8aH&autoplay=1&rel=0",
         pasta: "Deltarune"
+    },
+    {
+        nome: "ROT FOR CLOUT",
+        link: "https://www.youtube.com/embed/_AjJZEcMdww?si=OyRUWql4pnB5Av4n&autoplay=1&rel=0",
+        pasta: "Kasane Teto"
+    },
+
+    {
+        nome: "Lover Girl",
+        link: "https://www.youtube.com/embed/obLSGG-oEyw?si=1A5FMW8-V8OijU_T&autoplay=1&rel=0",
+        pasta: "Outros"
+    },
+    {
+        nome: "イガク × ROT FOR CLOUT",
+        link: "https://youtu.be/q-L27MN0CQ0?si=QuOBxNDy1yWwSeFm&autoplay=1&rel=0",
+        pasta: "Remix"
+    },
+    {
+        nome: "SQUARE UP",
+        link: "https://www.youtube.com/embed/0ZVFAkdRMRY?si=mAep7NV_q77PBOTo&autoplay=1&rel=0",
+        pasta: "Outros"
+    },
+    {
+        nome: "DAI DAI DAI KIRAI",
+        link: "https://www.youtube.com/embed/v9rbbNKKjYM?si=LFUwp4NGWGTrncvF&autoplay=1&rel=0",
+        pasta: "Outros Vocaloids"
+    },
+    {
+        nome: "Looping the Rooms (Neutroa Remix)",
+        link: "https://www.youtube.com/embed/MiSRagYgSzM?si=3j_HUNYGsS46QOsj&autoplay=1&rel=0",
+        pasta: "Remix"
+    },
+    {
+        nome: "Looping the Rooms",
+        link: "https://www.youtube.com/embed/icBDYkfxpMs?si=z08oekRayjGYTu4V&autoplay=1&rel=0",
+        pasta: "Outros Vocaloids"
+    },
+    {
+        nome: "人マニア - 重音テト",
+        link: "https://www.youtube.com/embed/HTxwOxFt5d4?si=s-yPO8WcV5mR05CZ&autoplay=1&rel=0",
+        pasta: "Kasane Teto"
+    },
+    {
+        nome: "deltarune||Ralsei】Ochame Kinou",
+        link: "https://www.youtube.com/embed/wDdrO9W188U?si=gVaPnZCUgzF-uKsF&autoplay=1&rel=0",
+        pasta: "Remix"
+    },
+    {
+        nome: "Renai Circulation",
+        link: "https://www.youtube.com/embed/uKxyLmbOc0Q?si=TgEM4o6GPseqZF7J&autoplay=1&rel=0",
+        pasta: "Outros"
+    },
+    {
+        nome: "POTETO CHIP",
+        link: "https://www.youtube.com/embed/MMy7KXZPpyw?si=Vvhx81zOkP3DrFI3&autoplay=1&rel=0",
+        pasta: "Kasane Teto"
+    },
+    {
+        nome: "Static",
+        link: "https://www.youtube.com/embed/KlTNKOnfXFk?si=mKYFfY_Z3Ry_LuzS&autoplay=1&rel=0",
+        pasta: "Outros Vocaloids"
     }
 ];
